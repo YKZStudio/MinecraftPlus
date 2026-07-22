@@ -2,5 +2,18 @@
   "advancement.mcplus.overpowered.description": "Craft an Enchanted Golden Apple",
   "advancement.mcplus.overpowered.title": "Overpowered",
   "enchantment.mcplus.explosion": "Explosion",
-  "item.mcplus.enchanted_golden_carrot": "Enchanted Golden Carrot"
+  "item.mcplus.enchanted_golden_carrot": "Enchanted Golden Carrot",
+  "screen.mcplus.huge_screenshot": "Minecraft Plus Huge Screenshot",
+  "option.mcplus.huge_screenshot.width": "Width",
+  "option.mcplus.huge_screenshot.height": "Height",
+  "option.mcplus.huge_screenshot.pixels": "%s pixels total",
+  "option.mcplus.huge_screenshot.invalid": "Invalid size (max side %s, max pixels %s)",
+  "option.mcplus.huge_screenshot.save_failed": "Could not save settings: %s",
+  "message.mcplus.huge_screenshot.busy": "A huge screenshot is already in progress",
+  "message.mcplus.huge_screenshot.no_world": "Huge screenshots can only be taken in a world",
+  "message.mcplus.huge_screenshot.started": "Started %s × %s huge screenshot; keep the camera still",
+  "message.mcplus.huge_screenshot.progress": "Huge screenshot: %s%%",
+  "message.mcplus.huge_screenshot.saved": "Huge screenshot saved: %s",
+  "message.mcplus.huge_screenshot.failed": "Huge screenshot failed: %s",
+  "key.mcplus.ultimine": "Ultimine"
 }

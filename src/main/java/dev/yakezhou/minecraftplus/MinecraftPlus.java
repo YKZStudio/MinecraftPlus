@@ -51,6 +51,8 @@ public final class MinecraftPlus implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		Ultimine.initialize();
+
 		Registry.register(
 			BuiltInRegistries.ENCHANTMENT_ENTITY_EFFECT_TYPE,
 			Identifier.fromNamespaceAndPath(MOD_ID, "arm_explosion"),

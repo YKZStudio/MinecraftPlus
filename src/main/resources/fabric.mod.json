@@ -11,6 +11,12 @@
   "entrypoints": {
     "main": [
       "dev.yakezhou.minecraftplus.MinecraftPlus"
+    ],
+    "client": [
+      "dev.yakezhou.minecraftplus.client.MinecraftPlusClient"
+    ],
+    "modmenu": [
+      "dev.yakezhou.minecraftplus.client.MinecraftPlusModMenu"
     ]
   },
   "mixins": [
@@ -21,5 +27,8 @@
     "fabric-api": "*",
     "minecraft": "~26.2",
     "java": ">=25"
+  },
+  "suggests": {
+    "modmenu": ">=20.0.1"
   }
 }

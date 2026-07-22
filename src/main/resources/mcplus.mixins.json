@@ -9,6 +9,9 @@
   ],
   "client": [
     "ClientPacketListenerMixin",
+    "GameRendererMixin",
+    "KeyboardHandlerMixin",
+    "MinecraftClientMixin",
     "PlayerTabOverlayMixin"
   ],
   "injectors": {

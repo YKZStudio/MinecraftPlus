@@ -2,5 +2,18 @@
   "advancement.mcplus.overpowered.description": "合成一个附魔金苹果",
   "advancement.mcplus.overpowered.title": "君临天下",
   "enchantment.mcplus.explosion": "爆炸",
-  "item.mcplus.enchanted_golden_carrot": "附魔金胡萝卜"
+  "item.mcplus.enchanted_golden_carrot": "附魔金胡萝卜",
+  "screen.mcplus.huge_screenshot": "Minecraft Plus 巨型截图",
+  "option.mcplus.huge_screenshot.width": "宽度",
+  "option.mcplus.huge_screenshot.height": "高度",
+  "option.mcplus.huge_screenshot.pixels": "总计 %s 像素",
+  "option.mcplus.huge_screenshot.invalid": "尺寸无效（单边最多 %s，总像素最多 %s）",
+  "option.mcplus.huge_screenshot.save_failed": "保存设置失败：%s",
+  "message.mcplus.huge_screenshot.busy": "巨型截图正在生成中",
+  "message.mcplus.huge_screenshot.no_world": "只能在世界中生成巨型截图",
+  "message.mcplus.huge_screenshot.started": "开始生成 %s × %s 巨型截图，请保持视角不动",
+  "message.mcplus.huge_screenshot.progress": "巨型截图：%s%%",
+  "message.mcplus.huge_screenshot.saved": "巨型截图已保存：%s",
+  "message.mcplus.huge_screenshot.failed": "巨型截图失败：%s",
+  "key.mcplus.ultimine": "连锁挖掘"
 }
