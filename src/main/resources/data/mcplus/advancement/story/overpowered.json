@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:story/upgrade_tools",
+  "criteria": {
+    "crafted_enchanted_golden_apple": {
+      "conditions": {
+        "recipe_id": "mcplus:enchanted_golden_apple"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.mcplus.overpowered.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "translate": "advancement.mcplus.overpowered.title"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_enchanted_golden_apple"
+    ]
+  ]
+}

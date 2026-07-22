@@ -1,0 +1,17 @@
+.gradle/
+build/
+out/
+run/
+.idea/
+.vscode/
+.agents/
+.codex/
+*.iml
+*.launch
+bin/
+classes/
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+*.DS_Store

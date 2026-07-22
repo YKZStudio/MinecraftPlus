@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "dev.yakezhou.minecraftplus.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "EnchantCommandMixin",
+    "EnchantmentMixin",
+    "ProjectileMixin"
+  ],
+  "client": [
+    "ClientPacketListenerMixin",
+    "PlayerTabOverlayMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

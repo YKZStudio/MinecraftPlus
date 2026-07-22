@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "mcplus",
+  "version": "${version}",
+  "name": "Minecraft Plus",
+  "description": "一个 Minecraft 的增强模组，包括一些新的附魔、物品和特性。现仅支持 Minecraft 26.2 Fabric。",
+  "authors": [
+    "Yakezhou"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.yakezhou.minecraftplus.MinecraftPlus"
+    ]
+  },
+  "mixins": [
+    "mcplus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "fabric-api": "*",
+    "minecraft": "~26.2",
+    "java": ">=25"
+  }
+}

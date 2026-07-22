@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "C": "minecraft:carrot",
+    "G": "minecraft:gold_block"
+  },
+  "pattern": [
+    "GGG",
+    "GCG",
+    "GGG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mcplus:enchanted_golden_carrot"
+  }
+}

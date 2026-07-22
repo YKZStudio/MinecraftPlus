@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "enchantment.mcplus.explosion"
+  },
+  "effects": {
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "mcplus:arm_explosion"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 10
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "supported_items": "#mcplus:enchantable/explosion",
+  "weight": 2
+}
